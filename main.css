@@ -1,0 +1,34 @@
+body { background: transparent; font-size: 32px;}
+
+@font-face {
+  font-family: 'BodyCam';
+  src: url('VCR_OSD_MONO_1.001.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+* {
+    font-family: BodyCam;
+    color:white;
+}
+
+.content {
+    float: right;
+}
+
+#name {
+    margin: 10px;
+}
+
+#elements {
+    float: inherit;
+}
+
+#time, #date {
+    float: left;
+    margin: 10px;
+}
+
+#logo {
+    width: 110px;
+    height: 110px;
+    float: left;
+}
